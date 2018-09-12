@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings.SettingsActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/bier"
+        android:contentDescription="@string/app_name" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Minispiele Bearbeiten" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/kingssettings"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="Kings cup" />
+
+                <Button
+                    android:id="@+id/pferderennenButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="Pferderennen" />
+
+                <Button
+                    android:id="@+id/rollingButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="Würfelspiele" />
+
+                <Button
+                    android:id="@+id/wuerfelpockerButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="Würfelpocker" />
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings.SettingsActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/bier"
+        android:contentDescription="@string/app_name" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="Einstellungen" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/confQuetsButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="Fragen_bearbeiten" />
+
+                <Button
+                    android:id="@+id/minigamesButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="Minispiele bearbeiten"/>
+
+                <Button
+                    android:id="@+id/themesButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="Themes"/>
+
+                <TextView
+                    android:id="@+id/diffView"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Schwierigkeit: 1"
+                    android:textStyle="italic"/>
+
+                <SeekBar
+                    android:id="@+id/difficultControl"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:max="10"
+                    android:min="1"
+                    android:progress="1" />
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>
