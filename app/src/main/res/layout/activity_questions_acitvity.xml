@@ -9,11 +9,12 @@
 
 
     <ImageView
+        android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/bier"
+        android:contentDescription="@string/app_name"
         android:scaleType="fitXY"
-        android:contentDescription="@string/app_name" />
+        app:srcCompat="@drawable/bier" />
 
 
         <TextView
