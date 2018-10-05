@@ -12,10 +12,13 @@ import com.example.felix.broduction.R;
 
 public class ThemesActivity extends AppCompatActivity {
 
-
-    public static Button  themestandartButton;
-    public static Button  themecleanButton;
     public static ImageView background;
+
+    public Button  themestandartButton;
+    public Button  themecleanButton;
+    public Button beerButton;
+    public Button drinksButton;
+    public Button shotButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,10 +26,11 @@ public class ThemesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_themes);
 
         background = (ImageView) findViewById(R.id.background);
+
+
+        //<editor-fold desc="Onclicklistiner Für die backgroundsButtons">
         themestandartButton = (Button)findViewById(R.id.themestandardButton);
         themestandartButton.setOnClickListener(new View.OnClickListener() {
-
-
             @Override
             public void onClick(View v) {
                 Backgroundsetter.Backgroundsetter("Standard");
@@ -41,6 +45,29 @@ public class ThemesActivity extends AppCompatActivity {
             }
         });
 
+        beerButton = (Button)findViewById(R.id.beerButton);
+        beerButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Backgroundsetter.Backgroundsetter("beer");
+            }
+        });
+        drinksButton = (Button)findViewById(R.id.dinksButton);
+        drinksButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Backgroundsetter.Backgroundsetter("drinks");
+            }
+        });
+
+        shotButton = (Button)findViewById(R.id.shotButton);
+        shotButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Backgroundsetter.Backgroundsetter("shot");
+            }
+        });
+        //</editor-fold>
 
     }
 

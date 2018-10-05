@@ -19,7 +19,8 @@
         <activity android:name=".settings.SettingsActivity" />
         <activity android:name=".settings.QuestionsAcitvity" />
         <activity android:name=".settings.ThemesActivity" />
-        <activity android:name=".settings.GameSettingsActivity"></activity>
+        <activity android:name=".settings.GameSettingsActivity" />
+        <activity android:name=".settings.minigames.kings.KingsSettingsActivity"></activity>
     </application>
 
 </manifest>

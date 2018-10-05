@@ -28,7 +28,7 @@ public class QuestionsAcitvity extends AppCompatActivity {
         setContentView(R.layout.activity_questions_acitvity);
 
         background = (ImageView) findViewById(R.id.background);
-        Backgroundsetter.Backgroundsetternichtvorheraufgerufen();
+        Backgroundsetter.BackgroundsetQuestion();
 
         questManager = MainActivity.getqManage();
         leftScrollView = (ScrollView)findViewById(R.id.leftScrollView);
@@ -44,10 +44,8 @@ public class QuestionsAcitvity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        Backgroundsetter.Backgroundsetternichtvorheraufgerufen();
+        Backgroundsetter.BackgroundsetQuestion();
     }
-
-
 
 
     private void ShowQuest(Quest.QuestTypes type) {

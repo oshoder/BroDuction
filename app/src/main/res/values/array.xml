@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BroDuction"> Spinner Example</string>
+
+    <string-array name="kingsrules">
+        <item>Verteile einen Schluck</item>
+        <item>Trinke einen Schluck</item>
+        <item>Wer zuletzt seine hand auf dem Boden hat trinkt.</item>
+        <item>Alle Jungs trinken.</item>
+        <item>Alle Mädchen trinken.</item>
+        <item>Heaven.\nWer zuletzt seine Hand hebt muss trinken.</item>
+        <item>Made\nSuch dir jemand aus der immer einen Schluck trinken muss wenn du trinkst.</item>
+        <item>Reihm\nSage ein Wort. Reium muss nun jeder ein Wort sagen was sich auf deins Reimt. Fällt jemand keins mehr ein oder sagt eins was bereits schon genannt wurde muss er trinken.</item>
+        <item>Satz\nSage ein Wort. Reium muss nun jeder ein Wort sagen, sodass ein Satz entsteht. Sagt jemand ein schon genanntes Wort oder verletzt die Grammatik muss er trinken.</item>
+        <item>Regel\nStelle eine Regel auf, die jeder einhalten muss. Sie kann vor oder nach dem Trinken einsetzen. Oder Während des ganzen Spielverlaufes gelten.</item>
+        <item>Queestionmaster\nSobald dir jemand eine Frage beantwortet muss er trinken. Du bist so lange Queestionmaster, bis jemand anderes eine Queestenmasterkarte zieht.</item>
+        <item>Kings Cup\nGieße einen Schluck in ein Glas in der mitte. Bei der letzten "Kings Cup Karte" muss derjenige der sie zieht das Glas austrinken.</item>
+        <item>Waterfall\nAlle Fangen an zu Trinken, man darf erst absetzen, wenn sein Vorderman aufgehört hat zu trinken. Der der die Karte gezogen hat darf jederzeit absetzen.</item>
+        <item>Five fingers\nJeder hebt fünf Finger. Reium spielt ihr "Ich hab noch nie" und jedes mal wenn etwas kommt was man schon getan hat senkt man einen Finger. Wer zuerst keine Finger mehr oben hat muss trinken.</item>
+        <item>Schlangenaugen\nWenn dir jemand in die Augen sieht muss er trinken. Du hast solange Schlangenaugen, bis jemand anderes Schlangenaugen bekommt.</item>
+        <item>Kategorie\nSage eine Kategorie. Reium sagt jeder etwas passendes zu deiner Kategorie. Wem zuerst nichts mehr einfällt oder etwas bereits gennantes muss er trinken.</item>
+        <item>Klokarte\nNur wer eine Klokarte gezogen hat, darf auf die Toilette.</item>
+        <item>Daumenmaster\nDu darfst einmal pro Runde deinen Daumen auf den Tisch machen. Die anderen müssen es dir gleich tun. Der letzt muss trinken.</item>
+        <item>Alle trinken</item>
+        <item>Sheriff\nSage wann immer du willst zwei Namen. Die beiden müssen ihre so schnell wie möglich den anderen erschießen(Hand wie eine Pistole halten. Auf den anderen richten und \"Peng\" rufen). Der Langsamere muss trinken"</item>
+
+    </string-array>
+
+</resources>

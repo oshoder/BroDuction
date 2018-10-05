@@ -40,6 +40,24 @@
             android:layout_height="70dp"
             android:text="Leeres Theme" />
 
+        <Button
+            android:id="@+id/beerButton"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Bier" />
+
+        <Button
+            android:id="@+id/dinksButton"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Drinks" />
+
+        <Button
+            android:id="@+id/shotButton"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Shots" />
+
 
     </LinearLayout>
 

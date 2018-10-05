@@ -44,7 +44,7 @@
                     android:id="@+id/confQuetsButton"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
-                    android:text="Fragen_bearbeiten" />
+                    android:text="Fragen bearbeiten" />
 
                 <Button
                     android:id="@+id/minigamesButton"

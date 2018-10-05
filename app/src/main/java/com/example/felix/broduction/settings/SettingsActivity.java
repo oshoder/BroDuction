@@ -21,6 +21,7 @@ public class SettingsActivity extends AppCompatActivity {
     private int difficult = 1;
     private Button questionsButton;
     private Button themeButton;
+    private Button minigamesButton;
     public static ImageView background;
 
     @Override
@@ -46,6 +47,14 @@ public class SettingsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), ThemesActivity.class));
+            }
+        });
+
+        minigamesButton = (Button)findViewById(R.id.minigamesButton);
+        minigamesButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), GameSettingsActivity.class));
             }
         });
 
